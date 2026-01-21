@@ -1,0 +1,150 @@
+html, body
+{
+	height: 100% !important;
+}
+
+body
+{
+	color: #4f4f4f !important;
+	font-weight: 600 !important;
+	background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');
+}
+
+h2
+{
+	color: #4f4f4f !important;
+	font-weight: 600 !important;
+}
+
+.gradient-custom-3
+{
+	/* fallback for old browsers */
+	background: #84fab0;
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4
+{
+	/* fallback for old browsers */
+	background: #84fab0;
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+	border: none !important;
+}
+
+.form-check-input
+{
+	position: initial !important;
+	margin-right: 10px !important;
+}
+
+.btn.active, .btn.active:focus, .btn.focus, .btn:active, .btn:active:focus, .btn:focus, .btn:hover
+{
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,.2),0 4px 20px 0 rgba(0,0,0,.1);
+}
+
+.form-control-lg, .input-group-lg > .form-control, .input-group-lg > .input-group-append > .btn, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-prepend > .input-group-text
+{
+	font-size: 1.05rem !important;
+	font-weight: 500 !important;
+}
+
+.terms
+{
+	font-size: 0.7rem !important;
+}
+
+.card
+{
+	box-shadow: none !important;
+	margin: 5% 0 5% 0;
+}
+
+.h-100
+{
+	height: 100% !important;
+}
+
+.mask {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-attachment:fixed;
+	overflow-y: scroll;
+}
+.hover-overlay .mask {
+	opacity:0;
+	transition:all .3s ease-in-out;
+}
+.hover-overlay .mask:hover {
+	opacity:1;
+}
+
+.bg-image {
+	position:relative;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:50%;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.datepicker td, .datepicker th {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+	text-align: center !important;
+	cursor: pointer;
+}
+
+.datepicker-dropdown {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#back-to-website
+{
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	color: #4f4f4f !important;
+}
+
+#back-to-website:hover
+{
+	color: black !important;
+}
+
+.prev-icon
+{
+	display:inline-block;
+	margin-right: 4px;
+	width:20px;
+	height:20px;
+	background:transparent no-repeat center center;
+	background-size:100% 100%;
+	vertical-align: bottom !important;
+	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
